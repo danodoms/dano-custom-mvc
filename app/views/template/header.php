@@ -6,13 +6,12 @@
     <title>Active Users</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    
-    
+    <!-- <link href="https://cdn.tailwindcss.com/2.2.19/tailwind.min.css" rel="stylesheet"> -->
 </head>
 <body>
-    <header>
-        <div class="header-background">
-            <h3>FINGERPRINT ATTENDANCE SYSTEM</h3>
+    <header class="border border-gray-500">
+        <div class="bg- py-4 ">
+            <h3 class="text-white text-2xl ">FINGERPRINT ATTENDANCE SYSTEM</h3>
             <img src="/assets/img/fingerprint.svg" alt="">
         </div>
     </header>

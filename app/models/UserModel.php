@@ -23,7 +23,7 @@ class UserModel extends Model {
      */
     public function getActiveUsers() {
         $db = $this->dbConnect();
-        $stmt = $db->query('SELECT name, privilege, email FROM active_employee_view');
+        $stmt = $db->query('SELECT name, privilege, email FROM active_employee_view LIMIT 20');
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 }

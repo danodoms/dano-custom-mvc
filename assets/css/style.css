@@ -19,7 +19,7 @@ body {
 }
 
 .hero {
-  margin: 20px;
+  margin: 12px;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -43,7 +43,29 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  gap: 12px;
+  margin: 12px;
+}
+
+.container .content {
+  flex: 1;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #242927 0%, rgb(37, 44, 41) 100%);
+  /* border: 2px solid #ccc; */
+}
+
+input.search-filter {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: transparent;
+  outline: none;
+  padding: 8px;
+}
+
+input.search-filter:focus {
+  border-color: lightgray;
 }
 
 table {
