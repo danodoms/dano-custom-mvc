@@ -1,9 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #ccc; /* Updated font color */
+  font-family: Inter, Arial, sans-serif;
+}
+
+.header-background {
+  background-color: #73e2ab;
+}
+
+.header-background h3 {
+  color: #111;
+}
+
+.hero {
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  /* border: 2px solid #ccc; */
+  background: linear-gradient(90deg, #242927 0%, rgb(37, 44, 41) 100%);
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
-  font-family: Arial, sans-serif; /* Add font family here */
-  color: red;
+  color: #ccc; /* Updated font color */
+  border-radius: 10px; /* Added border-radius property */
 }
 
 th,
@@ -11,14 +59,17 @@ td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
-  font-family: Arial, sans-serif; /* Add font family here */
 }
 
 th {
-  background-color: #4caf50;
-  color: white;
+  background-color: #333;
+  color: #ccc; /* Updated font color */
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #222;
+}
+
+h1 {
+  color: #ccc; /* Updated font color */
 }
